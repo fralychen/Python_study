@@ -52,3 +52,16 @@ teacher1 = Teacher('Prashad',['C','C++'])
 print(person1.get_details())
 print(student1.get_details())
 print(teacher1.get_details())
+class MyClass:
+	"""
+	a simple example class
+	"""
+	i = 12345
+	def f(self):
+		return 'hello world'	
+#object MyClass
+x = MyClass()
+
+#cat the class.obj&func
+print("MyClass info 'i' is: ",x.i)
+print("MyClass obj 'f' is: ",x.f())

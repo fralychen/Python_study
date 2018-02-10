@@ -1,4 +1,3 @@
-
 #!/usr/bin/python
 mintues = int(input("Enter mintues: "))
 def Hours(b):
@@ -12,4 +11,3 @@ if mintues < 0:
 		print("this is negative number.")
 else:
 	Hours(mintues)
-new insert
